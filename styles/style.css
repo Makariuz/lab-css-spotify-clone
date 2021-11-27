@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+    box-sizing: border-box;
+}
+ 
+#navBar {
+    height: 100px;
+    width: 100%;
+   /*  position: fixed; if i use fixed, the text appears behind the navbar */
+    display:flex;
+    align-items: center;
+    overflow: auto; /* so the navbar appears on top, but it's not working */
+}
+.nav-bar-ul {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+.nav-bar-ul a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+    padding-right: 20px;
+    display:flex;
+    align-items: center;
+
+    
+}
+
+
+nav img {
+
+    padding-left: 20px;
+    width: 200px;
+    height: 60px;
+    
+}
+
+.backgroundImage {
+   
+    background-image: url("/images/landing.jpg");
+    width: 100vw;
+    height: 100vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+   
+} 
+
+.musicDiv {
+    color: white;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #00B172;
+}
+
+.container {
+    height: 50vh;
+ /*  border: 1px solid black; */
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.container img {
+  /* border: 1px solid black; */
+    width: 100px;
+    height: 120px;
+    padding-bottom: 30px;
+   
+    
+}
+.container div {
+  /* border: 2px solid black; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 290px;
+
+}
+
+
+/* .container p{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: burlywood;
+} */
+
+h4 {
+    font-size: 200%;
+    color: #00B172;
+}
+
+
+.secondContainer {
+    background-color: #00B172;
+    margin:40px;
+    height: 100vh;
+}
+
+.secondContainer h4 {
+    color: white;
+    
+}
+
+.secondContainer img {
+    width: 100px;
+    display: flex;
+    border: 1px solid black;
+   
+ 
+}
+
+.secondContainer > p{
+  
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+
+/* I was having some deep trouble with finding the divs that made the boxes make sense. I would've done two middle divs inside the container, 
+but the title goes over the image where the logo is. I know how to make the logo go in the middle
+but it afects the main container */
+
+/* due to time constraint, I can't do much more than this */
