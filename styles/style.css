@@ -86,11 +86,16 @@ h3 {
 }
 
 h2 {
-    padding: 20px;
-    display:flex;
+    padding: 5px; 
+    border-bottom: 3px solid #00B172;
+}
+
+.h2Container {
+    background-color:#FFF;
+    height: 75px;
+    display:flex;;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid #00B172;
 }
 
 .container {
